@@ -210,4 +210,5 @@ Example:
       (cons (prettify-utils-create-pair old-string new-string glue-list)
                    (apply 'prettify-utils-generate-f tail)))))
 
+(provide 'prettify-utils)
 ;;; prettify-utils.el ends here
